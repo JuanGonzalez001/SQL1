@@ -105,6 +105,8 @@ Sum(Quantity*price)
 FROM BIT_DB.JanSales
 GROUP BY product
 ORDER BY sum(Quantity*price) desc
-LIMIT 1 
+LIMIT 1; 
+
+#14. 
 
 
