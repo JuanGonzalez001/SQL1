@@ -76,8 +76,8 @@ WHERE industry='Healthcare'
 SELECT company_name
 FROM fortune_companies
 WHERE paid_time_off_days>20
-AND healthcare_benefits=1
-;
+AND healthcare_benefits=1;
+
 
 # Which company in the Retail industry has the least revenue, and what's their revenue? 
 SELECT company_name, min(revenue)
