@@ -83,3 +83,10 @@ AND healthcare_benefits=1;
 SELECT company_name, min(revenue)
 FROM fortune_companies
 WHERE industry = 'Retail';
+
+
+#which  company in the retail industry has the greatest revenue and what is their revenue? 
+
+
+
+
