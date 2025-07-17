@@ -106,10 +106,12 @@ where type='Movie'
 Order by release_year asc
 Limit 1; 
 
-#6 what is the newest movie in the data base and what year was it made? 
+#6 what is the 10 newest movie in the data base and what year was it made? 
 Select title, release_year
 FROM "netflix_titles_year
 WHERE type='Movie'
+ORDER BY release_year DESC
+LIMIT 10;
 
 
 
