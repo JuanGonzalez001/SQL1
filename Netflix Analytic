@@ -107,6 +107,7 @@ Order by release_year asc
 Limit 1; 
 
 #6 what is the newest movie in the data base and what year was it made? 
+Select title, 
 
 
 
